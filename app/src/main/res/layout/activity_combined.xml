@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<androidx.core.widget.NestedScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
 <LinearLayout
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/impra"/>
 
     <View
             android:layout_width="match_parent"
@@ -14,5 +19,17 @@
             android:layout_margin="20dp"
             android:background="#88666666"/>
 
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:background="#88FF0000"/>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:background="#8800FF00"/>
+
 </LinearLayout>
-</ScrollView>
+</androidx.core.widget.NestedScrollView>
